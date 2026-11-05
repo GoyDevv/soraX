@@ -25,7 +25,6 @@
 plugins {
     alias(libs.plugins.android.library)
     // alias(libs.plugins.publish)
-    id("kotlin-android")
 }
 
 android {
@@ -48,9 +47,6 @@ android {
 java {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
-}
-kotlin {
-    jvmToolchain(21)
 }
 
 dependencies {
